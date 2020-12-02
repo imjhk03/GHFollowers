@@ -1,5 +1,5 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GHFollowers
 //
 //  Created by Joo Hee Kim on 20. 11. 27..
