@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C1002BF4257B2A6C00B3AF05 /* GFItemInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1002BF3257B2A6C00B3AF05 /* GFItemInfoView.swift */; };
+		C1002BFA257B4EB200B3AF05 /* GFItemInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1002BF9257B4EB200B3AF05 /* GFItemInfoVC.swift */; };
 		C128D23D2570AAF500CA7539 /* UIHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = C128D23C2570AAF500CA7539 /* UIHelper.swift */; };
 		C129EE42256DFF88002D975D /* FollowerListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C129EE41256DFF88002D975D /* FollowerListVC.swift */; };
 		C129EE45256E07C8002D975D /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C129EE44256E07C8002D975D /* GFTitleLabel.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		C1002BF3257B2A6C00B3AF05 /* GFItemInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoView.swift; sourceTree = "<group>"; };
+		C1002BF9257B4EB200B3AF05 /* GFItemInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoVC.swift; sourceTree = "<group>"; };
 		C128D23C2570AAF500CA7539 /* UIHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIHelper.swift; sourceTree = "<group>"; };
 		C129EE41256DFF88002D975D /* FollowerListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListVC.swift; sourceTree = "<group>"; };
 		C129EE44256E07C8002D975D /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
@@ -133,6 +135,7 @@
 			children = (
 				C1663E00256F3E47009BDA25 /* GFAlertVC.swift */,
 				C18E626925789316007F2BE9 /* GFUserInfoHeaderVC.swift */,
+				C1002BF9257B4EB200B3AF05 /* GFItemInfoVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				C1FC9092256D66A900372000 /* GFButton.swift in Sources */,
 				C1663E0D256F5F5D009BDA25 /* UIViewController+Ext.swift in Sources */,
 				C128D23D2570AAF500CA7539 /* UIHelper.swift in Sources */,
+				C1002BFA257B4EB200B3AF05 /* GFItemInfoVC.swift in Sources */,
 				C18E627025789925007F2BE9 /* Constants.swift in Sources */,
 				C149953F25701222004397A2 /* GFAvatarImageView.swift in Sources */,
 				C1FC908B256D5E2C00372000 /* SearchVC.swift in Sources */,
