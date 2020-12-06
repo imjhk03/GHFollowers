@@ -14,3 +14,4 @@ A Take Home Project from Sean Allen's course
 * Diffable Data Source
 * Downloading images asynchronously, [NSCache](https://developer.apple.com/documentation/foundation/nscache)
 * Pagination, detecting the bottom of a UIScrollView
+* Use child view controllers for subviews
