@@ -7,13 +7,14 @@
 
 import UIKit
 
-protocol GFRepoItemVCDelegate: class {
+protocol GFRepoItemVCDelegate: AnyObject {
     func didTapGitHubProfile(for user: User)
 }
 
 class GFRepoItemVC: GFItemInfoVC {
     
     weak var delegate: GFRepoItemVCDelegate!
+    
     
     init(user: User, delegate: GFRepoItemVCDelegate) {
         super.init(user: user)
@@ -42,5 +43,4 @@ class GFRepoItemVC: GFItemInfoVC {
     override func actionButtonTapped() {
         delegate.didTapGitHubProfile(for: user)
     }
-    
 }

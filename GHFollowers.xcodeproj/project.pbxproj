@@ -119,8 +119,8 @@
 		C149953425700BC3004397A2 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				C149953525700BD0004397A2 /* GFError.swift */,
 				C128D23C2570AAF500CA7539 /* UIHelper.swift */,
+				C149953525700BD0004397A2 /* GFError.swift */,
 				C18E626F25789925007F2BE9 /* Constants.swift */,
 			);
 			path = Utilities;

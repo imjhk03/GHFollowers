@@ -15,6 +15,7 @@ class UserInfoVC: UIViewController {
     
     let scrollView          = UIScrollView()
     let contentView         = UIView()
+    
     let headerView          = UIView()
     let itemViewOne         = UIView()
     let itemViewTwo         = UIView()
@@ -120,11 +121,11 @@ class UserInfoVC: UIViewController {
     @objc func dismissVC() {
         dismiss(animated: true)
     }
-    
 }
 
 
 extension UserInfoVC: GFRepoItemVCDelegate {
+    
     func didTapGitHubProfile(for user: User) {
         guard let url = URL(string: user.htmlUrl) else {
             presentGFAlertOnMainThread(title: "Invalid URL", message: "The url attached to this user is invalid.", buttonTitle: "Ok")
@@ -133,11 +134,11 @@ extension UserInfoVC: GFRepoItemVCDelegate {
         
         presentSafariVC(with: url)
     }
-    
 }
 
 
 extension UserInfoVC: GFFollowerItemVCDelegate {
+    
     func didTapGetFollowers(for user: User) {
         guard user.followers != 0 else {
             presentGFAlertOnMainThread(title: "No followers", message: "This user has no followers. What a shame 😞.", buttonTitle: "So sad")

@@ -35,5 +35,4 @@ class GFBodyLabel: UILabel {
         lineBreakMode                       = .byWordWrapping
         translatesAutoresizingMaskIntoConstraints = false
     }
-
 }

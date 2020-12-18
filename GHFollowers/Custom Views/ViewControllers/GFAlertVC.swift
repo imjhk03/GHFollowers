@@ -39,6 +39,7 @@ class GFAlertVC: UIViewController {
         view.backgroundColor = UIColor.black.withAlphaComponent(0.75)
         view.addSubview(containerView)
         containerView.addSubviews(titleLabel, actionButton, messageLabel)
+        
         configureContainerView()
         configureTitleLabel()
         configureActionButton()
@@ -96,5 +97,4 @@ class GFAlertVC: UIViewController {
     @objc func dismissVC() {
         dismiss(animated: true)
     }
-
 }

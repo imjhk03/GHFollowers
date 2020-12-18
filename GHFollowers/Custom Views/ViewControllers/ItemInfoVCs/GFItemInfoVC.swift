@@ -7,9 +7,6 @@
 
 import UIKit
 
-protocol ItemInfoVCDelegate: class {
-}
-
 class GFItemInfoVC: UIViewController {
     
     let stackView           = UIStackView()
@@ -81,6 +78,4 @@ class GFItemInfoVC: UIViewController {
             actionButton.heightAnchor.constraint(equalToConstant: 44)
         ])
     }
-    
-
 }
